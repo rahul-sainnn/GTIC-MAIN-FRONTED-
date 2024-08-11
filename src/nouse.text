@@ -1,0 +1,176 @@
+export const specialSpeakerData = [
+  {
+    title: "Master of Conference, Moderator & Presenter",
+    speakers: [
+      {
+        name: "Jamila Qaissi",
+        address: "Based in Paris, France",
+        image: "/Images/Speakers/Jamila_Qaissi.png",
+        points: [
+          "Over two decades of experience as an independent strategist, specializing in planning and executing strategies",
+          "Expertise in day trading within the US Markets, Stocks and Futures",
+          "Proficient with over 4 years of experience in Money Management",
+          "Postgraduate degree in Algebra from the University Paris 6, France",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Moderator",
+    speakers: [
+      {
+        name: "Vikas Shah",
+        address: "Based in Dubai, UAE",
+        image: "/Images/Speakers/Vikas_Shah.png",
+        points: [
+          "Interviews on CNBC Arabia, Bloomberg, Asharq News",
+          "Trading in options and futures for last 12 years",
+          "20+ years in the financial/investment markets in GCC and USA, including Private Equity, Venture Capital, and Investment Banking",
+        ],
+      },
+    ],
+  },
+]
+
+export const speakerTopicData = [
+  {
+    title: "For Presentations and/or Workshops:",
+    id: 1,
+    speakers: [ 11, 12, 13, 14, 15 ],
+  },
+  {
+    title: "For Panels:",
+    id: 2,
+    speakers: [ 21, 22, 23 ],
+  },
+];
+
+
+const speakerData = [
+  {
+    id: 11,
+    titleId: 1,
+    name: `Jeff
+Manson`,
+    address: "Based in Arizona, USA",
+    image: "/Images/Speakers/jeffmanson.png",
+    points: [
+      "Trading & teaching since 1997 for over 26 years",
+      '"Instructor of the Year Award" many times',
+      'Trading all USA financial markets with focus on techniques that are "Forward Looking" not on indicators',
+      "Founder of TheEliteTrade.com and TheMarketInstitution.com",
+    ],
+  },
+  {
+    id: 12,
+    titleId: 1,
+    name: `Daniel
+Sugar`,
+    address: "Based In New York, USA",
+    image: "/Images/Speakers/dansugar.png",
+    points: [
+      "3rd Generation Chicago Floor Trader at CBOT, Chicago Board of Trade",
+      "35 Years Trading & Investing in Financial Markets",
+      "15 Years Educating & Mentoring Students",
+      "3 Years working for & Trading with a hedge Fund mastering the strategy of following trends and trend lines",
+    ],
+  },
+  {
+    id: 13,
+    titleId: 1,
+    name: `Sunil
+Mangwani`,
+    address: "Based in Pune, India",
+    image: "/Images/Speakers/Sunil_M.png",
+    points: [
+      "Trader, author, educator, speaker for more than 20 years",
+      "Creator of a Trade Plan incorporating the 3M’s: Money, Mind & Method, and the “2 Golden Rules of Risk Management”",
+      "Author of the book “7 Secrets of Professional Traders”",
+      "Founder of the institute “Fibonacci.Forex123”",
+    ],
+  },
+  {
+    id: 13,
+    titleId: 1,
+    name: `Jeff
+Warner`,
+    address: "Based in Texas, USA",
+    image: "/Images/Speakers/Jeff_Warner.png",
+    points: [
+      "15 years’ experience as Forex and Futures trader with a strong focus on supply and demand methodology",
+      "Mentored hundreds of students",
+      "Specializes in teaching technical analysis, risk management, and trade",
+      "Simplifies the trading process to make better decisions",
+    ],
+  },
+  {
+    id: 14,
+    titleId: 1,
+    name: `Ed 
+Ponsi`,
+    address: "Based in New York, USA",
+    image: "/Images/Speakers/Ed_Ponsi.png",
+    points: [
+      "Former Wall Street Trader",
+      "Interviewed on CNBC, CNN, Bloomberg, Fox, and the BBC",
+      "Instructor of thousands of students in London, NY, Dubai, Singapore",
+      "Author of “Technical Analysis and Chart Interpretations”, “Forex Patterns and Probabilities”, “The Ed Ponsi Forex playbook”",
+    ],
+  },
+  {
+    id: 15,
+    titleId: 1,
+    name: `Scott
+Carney`,
+    address: "Based in Florida, USA",
+    image: "/Images/Speakers/Scott_harmonic.png",
+    points: [
+      "President and Founder of HarmonicTrader.com, created the harmonic patterns Bat pattern, the Gartley pattern, the 5-0, the Shark, the Crab pattern, and many other proprietary strategies",
+      "25+ years Trader and author of The Harmonic Trader (1998), Harmonic Trading of the Financial Markets: 3 Volumes",
+      "Series 7, 63 & 65, CMT certified",
+    ],
+  },
+  {
+    id: 21,
+    titleId: 2,
+    name: `Amit
+Barthia`,
+    address: "Based in Singapore",
+    image: "/Images/Speakers/Amit_Barthia.png",
+    points: [
+      "Founder and portfolio manager at Delorean Partners",
+      "Formerly, 29 years as partner and portfolio manager at GMO. Former Leader of the fundamental research team for emerging markets",
+      "Founded and managed the EM domestic demand strategy",
+      "MBA at the Institute for Technology and Management in Bombay",
+    ],
+  },
+  {
+    id: 22,
+    titleId: 2,
+    name: `Austin
+Mortimer`,
+    address: "Based in Auckland, New Zealand",
+    image: "/Images/Speakers/Austin_Mortimer.png",
+    points: [
+      "Forex Trader for over 10 years",
+      "Previous experience of over 20 years in US Stocks and Options",
+      "MBA from University College Dublin",
+    ],
+  },
+  {
+    id: 23,
+    titleId: 2,
+    name: `Muhammad
+Asim
+Chaudhry`,
+    address: "Based in Dubai, UAE",
+    image: "/Images/Speakers/Anonymous_man.png",
+    points: [
+      "Former dealer with 8+ years-experience",
+      "12+ years’ experience of trading Options on US markets",
+      "Success based on discretionary trading",
+      "Bachelor’s Finance, Economics, American University, WU, D.C., USA",   
+      "CFA certified",
+    ],
+  },
+]

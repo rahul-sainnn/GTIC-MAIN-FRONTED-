@@ -1,0 +1,36 @@
+#footer {
+  bottom: 0px;
+  color: white;
+  background-color: #222121;
+}
+.footer-container {
+  padding: 25px 50px 20px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.contact p {
+  font-size: 14px;
+  margin-bottom: 1px !important;
+}
+
+@media screen and (max-width: 825px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-links {
+    display: none;
+  }
+  .contact p {
+    font-size: 11px;
+  }
+}
+
+.sticky-component {
+  background-color: #f0f000;
+  padding: 20px;
+  position: relative;
+  transition: position 0.3s ease;
+}

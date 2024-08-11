@@ -1,0 +1,28 @@
+.speaker-about {
+  padding: 0px 50px 50px;
+  text-align: justify;
+}
+
+.speaker-about > h3 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.speaker-about img {
+  width: 100%;
+}
+
+.speaker-about li {
+  margin: 10px;
+}
+
+.speaker-about li span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 770px) {
+  .speaker-about {
+    font-size: 14px;
+    padding: 0 25px 50px;
+  }
+}

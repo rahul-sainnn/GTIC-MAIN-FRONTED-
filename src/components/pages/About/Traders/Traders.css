@@ -1,0 +1,28 @@
+.traders {
+  padding: 10px 50px;
+}
+
+.traders-head {
+  font-weight: bold;
+}
+
+.traders-head span {
+  color: #3087d3;
+}
+
+.traders ul {
+  padding: 20px;
+  color: rgb(103, 103, 103);
+}
+
+.traders li {
+  padding: 5px 0px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 770px) {
+  .traders {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+}

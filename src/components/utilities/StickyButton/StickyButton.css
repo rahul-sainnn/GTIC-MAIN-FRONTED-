@@ -1,0 +1,29 @@
+.sticky-button {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+}
+
+.book-seat-sticky {
+  flex-basis: 50%;
+  border: none;
+  background-color: #0000b1;
+  color: white;
+  padding: 0.5rem 0;
+}
+
+.register-sticky {
+  flex-basis: 50%;
+  background-color: #ee6d4e;
+  border: none;
+  padding: 0.5rem 0;
+  color: white;
+}
+
+@media screen and (min-width: 750px) {
+  .sticky-button {
+    display: none;
+  }
+}

@@ -1,0 +1,117 @@
+.image-acc {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  min-height: 400px;
+  padding-bottom: 40px;
+}
+
+.image-items {
+  width: 80%;
+  background-color: #ee6d4e;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0px;
+  background-size: auto 275px;
+  border-radius: 20px;
+}
+
+.image-items h3 {
+  font-size: 2.5rem;
+  padding-top: 10px;
+  white-space: normal;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.image-items div {
+  color: white;
+  display: block;
+}
+
+.speaker-detail {
+  width: 80%;
+  padding: 20px 5px 0px 10px;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.speaker-detail li {
+  font-size: 22px;
+}
+
+.speaker-detail p {
+  font-size: 20px;
+  padding-left: 8%;
+  padding-top: 1%;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .image-items {
+    height: 375px;
+  }
+
+  .speaker-detail li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .image-items {
+    background-size: auto 225px;
+  }
+
+  .speaker-detail li {
+    font-size: 16px;
+  }
+
+  .speaker-detail p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .image-items {
+    width: 95%;
+    height: 475px;
+    background-size: 165px;
+  }
+  .speaker-detail {
+    width: 78%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .image-items {
+    width: 98%;
+    height: 510px;
+  }
+  .speaker-detail {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .image-items {
+    width: 98%;
+    height: 620px;
+  }
+
+  .image-items h3 {
+    font-size: 2rem;
+  }
+  .speaker-detail p {
+    width: 60%;
+  }
+}

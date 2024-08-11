@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+.read-home-button {
+  background-color: rgba(145, 89, 0, 0);
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #4ea3ee;
+  border: none;
+  cursor: pointer;
+  padding: 5px 50px;
+  align-items: center;
+  margin: 0px 10px;
+  margin-bottom: 5px;
+}
+
+.read-home-button:hover {
+  color: #4ea3ee;
+  border: 2px solid #4ea3ee;
+  background-color: #3d5a8000;
+  padding: 3px 48px;
+}
+
+.intro-register-button {
+  background-color: rgba(145, 89, 0, 0);
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #bd57df;
+  border: none;
+  cursor: pointer;
+  padding: 5px 50px;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.intro-register-button:hover {
+  color: #bd57df;
+  border: 2px solid #bd57df;
+  background-color: #3d5a8000;
+  padding: 3px 48px;
+  /* scale: 1.1; */
+}
+
+.intro-button-container {
+  display: flex;
+}
+
+.home-head-container {
+  padding: 75px 75px 0px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -20px;
+  z-index: 10;
+}
+
+.home-head-container img {
+  /* animation: 2s slidein; */
+  width: 50%;
+  height: 400px;
+}
+
+.home-head-content h2 {
+  /* color: #ee6d4e; */
+  
+  margin-bottom: 0rem;
+}
+
+.intro-text span:nth-child(4) {
+  color: #156cff;
+}
+
+.intro-text span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#hp {
+  color: #3d5a80;
+  margin: 5px;
+}
+
+.home-head-content hr {
+  margin: 0.25rem;
+  width: 60%;
+  /* margin: auto; */
+  margin-bottom: 40px;
+}
+
+.home-head-content{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  width: 95%;
+  justify-content: center;
+}
+
+.home-head-content p {
+  font-size: 14px;
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: justify;
+  color: rgb(30, 30, 30);
+  margin-right: 10px;
+
+  /* animation-delay: 3s; */
+}
+
+@media screen and (max-width: 1005px) {
+  .home-head-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .home-head-container img {
+    width: 80%;
+  }
+
+  .home-head-container {
+    padding-top: 50px;
+  }
+  
+  .home-head-content p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-head-container {
+    padding: 3.25rem 1rem;
+  }
+
+  .intro-button-container {
+    flex-direction: column;
+  }
+
+  .home-intro-text p {
+    font-size: 14px;
+  }
+}

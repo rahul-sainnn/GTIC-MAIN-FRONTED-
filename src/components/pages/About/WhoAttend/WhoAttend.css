@@ -1,0 +1,44 @@
+.who-attend {
+  padding: 0px 50px 50px;
+  text-align: justify;
+}
+
+.who-attend h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.who-main-points {
+  font-weight: bold;
+}
+.who-main-points li {
+  margin: 10px;
+}
+
+.who-sub-points {
+  font-weight: normal;
+}
+
+.who-no-points {
+  font-weight: normal;
+  list-style-type: none;
+}
+
+.who-no-points span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 775px) {
+  .who-attend {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .who-main-points, .who-sub-points {
+    padding-left: 20px;
+  }
+
+  .who-no-points {
+    padding-left: 8px;
+  }
+}
